@@ -25,20 +25,20 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/5.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-*+rp^-un)n)^$%f_h+6)x5ffmpdeuc7)(5ofw=%(bq%wshyjdy'
+SECRET_KEY = 'django-insecure-io@cts3jrt4b-#gu3!zqnov)%ye+(f01jk9p9#8ip4sbelhb^e'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
-REST_FRAMEWORK ={
+REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
         "rest_framework_simplejwt.authentication.JWTAuthentication",
-        ),
+    ),
     "DEFAULT_PERMISSION_CLASSES": [
         "rest_framework.permissions.IsAuthenticated",
-        ],
+    ]
 }
 
 SIMPLE_JWT = {
