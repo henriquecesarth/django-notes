@@ -1,0 +1,56 @@
+:root {
+  /* 🎭 Tons de Cinza Azulados (mais suaves e contemplativos) */
+  --gray-100: #f1f3f9; /* fundo bem claro */
+  --gray-200: #d8dcef;
+  --gray-300: #b9c2de;
+  --gray-400: #8a92b5;
+  --gray-500: #6a7296;
+  --gray-600: #505677;
+  --gray-700: #393f5a; /* Bordas e separadores */
+  --gray-800: #232840; /* Fundo de cartões */
+  --gray-900: #15182b; /* Fundo principal escuro */
+
+  /* 🌿 Cores Primárias (fixas, tema Selah) */
+  --primary-light: #a78bfa; /* Lavanda clara (suave e calma) */
+  --primary: #7c3aed; /* Roxo profundo (espiritualidade e nobreza) */
+  --primary-dark: #5b21b6; /* Roxo escuro (concentração) */
+
+  /* 🎨 Texto sobre fundos coloridos (para garantir contraste) */
+  --text-over-primary: #ffffff; /* Texto sobre fundo primário */
+  --text-over-primary-dark: #e6e9f0; /* Texto sobre variação escura */
+  --text-over-primary-light: #0a0f1a; /* Texto sobre variação clara */
+  --text-over-success: #0a0f1a; /* Texto sobre fundo sucesso */
+  --text-over-warning: #0a0f1a; /* Texto sobre fundo alerta */
+  --text-over-error: #e6e9f0; /* Texto sobre fundo erro */
+  --text-over-info: #0a0f1a; /* Texto sobre fundo informativo */
+
+  /* 🔗 Links */
+  --link-color: #2563eb; /* Azul confiança */
+  --link-hover: #1e40af; /* Azul mais escuro */
+
+  /* 🚦 Alertas */
+  --success: #16a34a; /* Verde esperança */
+  --warning: #f59e0b; /* Dourado/âmbar */
+  --error: #dc2626; /* Vermelho */
+  --info: #0284c7; /* Azul serenidade */
+
+  /* 🎨 Texto */
+  --text-default: #f1f3f9;
+  --text-muted: #b9c2de;
+
+  /* 🚫 Desativados */
+  --disabled: #505677;
+  --text-disabled: #8a92b5;
+
+  /* 🔔 Toastify */
+  --toastify-color-light: var(--text-default);
+  --toastify-color-dark: var(--text-default);
+  --toastify-color-info: var(--info);
+  --toastify-color-success: var(--success);
+  --toastify-color-warning: var(--warning);
+  --toastify-color-error: var(--error);
+  --toastify-text-color-light: #15182b;
+  --toastify-text-color-dark: #f1f3f9;
+  --toastify-color-progress-light: var(--primary);
+  --toastify-color-progress-dark: var(--primary);
+}

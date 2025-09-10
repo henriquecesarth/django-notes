@@ -1,8 +1,27 @@
 .textArea {
-    width: 90%;
-    padding: 10px;
-    margin: 10px 0;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+  background: transparent;
+  color: var(--text-default);
+  font-size: 1.8rem;
+  width: 100%;
+  padding: 0.8rem;
+  margin: 0.8rem 0 1.6rem;
+  border: none;
+  border-bottom: 0.2rem solid var(--primary);
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+  outline: none;
+  transition: all 0.1s ease-in-out;
+}
+
+.textArea:focus {
+  outline: none;
+  border: 0.2rem solid var(--primary);
+  border-radius: 0.8rem;
+}
+
+.textArea::placeholder {
+  color: var(--gray-500);
+  font-size: 1.4rem;
+  font-style: italic;
+  text-align: center;
 }

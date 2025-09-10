@@ -18,4 +18,9 @@ api.interceptors.request.use(
   }
 );
 
-export default api;
+const publicApi = axios.create({
+  baseURL: import.meta.env.VITE_API_URL,
+  withCredentials: true,
+});
+
+export { api, publicApi };

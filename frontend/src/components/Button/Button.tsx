@@ -2,13 +2,22 @@ import React from 'react';
 import styles from './Button.module.css';
 
 type ButtonProps = {
-  children: string;
+  children: React.ReactNode;
+  color?: string;
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
-const Button = ({ children, type, className, ...props }: ButtonProps) => {
+const Button = ({
+  children,
+  className,
+  color = 'green',
+  ...props
+}: ButtonProps) => {
   return (
     <>
-      <button className={className ?? styles.button} type={type} {...props}>
+      <button
+        className={className ?? `${styles.button} ${styles[color]}`}
+        {...props}
+      >
         {children}
       </button>
     </>
